@@ -6,7 +6,7 @@
 
     <groupId>com.hobbit</groupId>
     <artifactId>hobbit-tool</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
 
