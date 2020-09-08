@@ -4,41 +4,28 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.springblade</groupId>
-    <artifactId>blade-tool</artifactId>
-    <version>2.7.2</version>
+    <groupId>com.hobbit</groupId>
+    <artifactId>hobbit-tool</artifactId>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
-    <name>blade-tool</name>
+    <name>${project.artifactId}</name>
     <description>
-        blade-tool is a powerful toolbox for SpringBlade
+        以 SpringBladeX 为基础。扩展工具包
     </description>
-    <url>https://github.com/chillzhuang/blade-tool</url>
+    <url>http://hobbit.natapp1.cc/</url>
     <developers>
         <developer>
-            <id>smallchill</id>
-            <name>庄骞</name>
-            <email>smallchill@163.com</email>
+            <id>hobbit</id>
+            <name>霍比特</name>
+            <email>lhymister@gmail.com</email>
             <roles>
                 <role>Java Development Engineer</role>
             </roles>
-            <timezone>2018-12-28 23:33:33</timezone>
+            <timezone>2020-09-07</timezone>
         </developer>
     </developers>
-    <licenses>
-        <license>
-            <name>GNU LESSER GENERAL PUBLIC LICENSE</name>
-            <url>http://www.gnu.org/licenses/lgpl.html</url>
-        </license>
-    </licenses>
-    <scm>
-        <connection>https://github.com/chillzhuang/blade-tool.git</connection>
-        <developerConnection>https://github.com/chillzhuang</developerConnection>
-        <url>https://github.com/chillzhuang/blade-tool.git</url>
-    </scm>
 
     <properties>
-        <blade.tool.version>2.7.2</blade.tool.version>
-
         <java.version>1.8</java.version>
         <maven.plugin.version>3.8.0</maven.plugin.version>
         <swagger.version>2.9.2</swagger.version>
@@ -61,19 +48,19 @@
     </properties>
 
     <modules>
-        <module>blade-core-boot</module>
-        <module>blade-core-cloud</module>
-        <module>blade-core-develop</module>
-        <module>blade-core-launch</module>
-        <module>blade-core-log</module>
-        <module>blade-core-mybatis</module>
-        <module>blade-core-secure</module>
-        <module>blade-core-social</module>
-        <module>blade-core-swagger</module>
-        <module>blade-core-test</module>
-        <module>blade-core-tool</module>
-        <module>blade-core-oss</module>
-        <module>blade-core-transaction</module>
+        <module>hobbit-core-boot</module>
+        <module>hobbit-core-cloud</module>
+        <module>hobbit-core-develop</module>
+        <module>hobbit-core-launch</module>
+        <module>hobbit-core-log</module>
+        <module>hobbit-core-mybatis</module>
+        <module>hobbit-core-secure</module>
+        <module>hobbit-core-social</module>
+        <module>hobbit-core-swagger</module>
+        <module>hobbit-core-test</module>
+        <module>hobbit-core-tool</module>
+        <module>hobbit-core-oss</module>
+        <module>hobbit-core-transaction</module>
     </modules>
 
     <dependencyManagement>
