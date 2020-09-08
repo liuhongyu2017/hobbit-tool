@@ -19,7 +19,6 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus</artifactId>
-            <version>${mybatis.plus.version}</version>
         </dependency>
         <!--Hobbit-->
         <dependency>

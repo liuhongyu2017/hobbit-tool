@@ -25,13 +25,11 @@
         <dependency>
             <groupId>com.qiniu</groupId>
             <artifactId>qiniu-java-sdk</artifactId>
-            <version>7.2.18</version>
         </dependency>
         <!--alioss-->
         <dependency>
             <groupId>com.aliyun.oss</groupId>
             <artifactId>aliyun-sdk-oss</artifactId>
-            <version>3.1.0</version>
         </dependency>
     </dependencies>
 

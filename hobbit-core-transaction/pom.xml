@@ -29,12 +29,10 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
-            <version>${alibaba.cloud.version}</version>
         </dependency>
         <dependency>
             <groupId>io.seata</groupId>
             <artifactId>seata-spring-boot-starter</artifactId>
-            <version>${alibaba.seata.version}</version>
         </dependency>
     </dependencies>
 
