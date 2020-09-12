@@ -1,7 +1,7 @@
 #set($wrapperPackage=$package.Entity.replace("entity","wrapper"))
 package $!{wrapperPackage};
 
-import com.hobbit.core.mp.support.BaseEntityWrapper;
+import BaseEntityWrapper;
 import com.hobbit.core.tool.utils.BeanUtil;
 import $!{package.Entity}.$!{entity};
 #set($voPackage=$package.Entity.replace("entity","vo"))
